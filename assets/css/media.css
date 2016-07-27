@@ -1,0 +1,108 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .biography{
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+    .download-button a:last-of-type{
+        float: none;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .mouse{
+        width: 36px;
+        height: 62px;
+    }
+    .mouse:before{
+        width: 30px;
+        height: 56px;
+    }
+    .mouse:after{
+        width: 5px;
+        height: 5px;
+    }
+
+}
+
+@media only screen and (max-width : 650px) {
+    /*.portfolio-item{*/
+        /*min-height: 160px;*/
+    /*}*/
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 600px) {
+    #about h5{
+        margin-top: 1rem;
+    }
+    .skill-title h5 {
+        font-size: 1rem;
+    }
+    .tt-fullHeight {
+        height: 560px !important;
+    }
+    .mouse{
+        display: none;
+    }
+    .list-inline li{
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width : 480px) {
+    h1 {
+        font-size: 3.2rem;
+        line-height: 110%;
+        margin: 1.6rem 0 1.28rem 0;
+    }
+    h2 {
+        font-size: 2.56rem;
+        line-height: 110%;
+        margin: 1.28rem 0 1.024rem 0;
+    }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .portfolio-item{
+        min-height: 162px;
+    }
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 993px) {
+    .container {
+        width: 85%;
+    }
+    .portfolio-item{
+        min-height: 150px;
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
